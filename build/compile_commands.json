@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/shenglish/workspace/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -o CMakeFiles/demo.dir/vscode_test/main.cpp.o -c /home/shenglish/workspace/vscode_test/main.cpp",
+  "file": "/home/shenglish/workspace/vscode_test/main.cpp"
+},
+{
+  "directory": "/home/shenglish/workspace/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -o CMakeFiles/demo.dir/vscode_test/test_class.cpp.o -c /home/shenglish/workspace/vscode_test/test_class.cpp",
+  "file": "/home/shenglish/workspace/vscode_test/test_class.cpp"
+}
+]

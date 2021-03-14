@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shenglish/workspace/vscode_test/main.cpp
+iostream
+-
+test_class.h
+/home/shenglish/workspace/vscode_test/test_class.h
+
+/home/shenglish/workspace/vscode_test/test_class.cpp
+test_class.h
+/home/shenglish/workspace/vscode_test/test_class.h
+
+/home/shenglish/workspace/vscode_test/test_class.h
+
