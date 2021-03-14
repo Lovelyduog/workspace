@@ -1,13 +1,12 @@
 /*
  * @Author: your name
  * @Date: 2021-03-13 23:54:16
- * @LastEditTime: 2021-03-14 13:45:54
+ * @LastEditTime: 2021-03-14 22:02:28
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vscode_test/main.cpp
  */
 #include <iostream>
-#include "test_class.h"
 #include <vector>
 int fun()
 {
