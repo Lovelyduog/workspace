@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-03-13 23:54:16
- * @LastEditTime: 2021-03-14 22:02:28
+ * @LastEditTime: 2021-03-14 22:05:52
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vscode_test/main.cpp
@@ -21,7 +21,6 @@ int fun()
 
 int main()
 {
-    TestClass a;
     fun();
     std::cout << "hh" << std::endl;
     return 0;
