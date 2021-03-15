@@ -24,5 +24,6 @@ int main()
     fun();
     std::cout << "hh" << std::endl;
     int a;
+    int b;
     return 0;
 }
