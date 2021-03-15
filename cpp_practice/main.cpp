@@ -23,5 +23,6 @@ int main()
 {
     fun();
     std::cout << "hh" << std::endl;
+    int a;
     return 0;
 }
