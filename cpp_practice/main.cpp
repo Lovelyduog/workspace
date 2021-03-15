@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-03-13 23:54:16
- * @LastEditTime: 2021-03-15 22:25:20
+ * @LastEditTime: 2021-03-15 22:31:35
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vscode_test/main.cpp
@@ -15,6 +15,7 @@ int main()
     int a = 1;
     int b = any::foo(&a) + 1;
     any::vector<int> vec;
+    int a;
     vec.push_back(1);
     vec.push_back(1);
     vec.push_back(1);
