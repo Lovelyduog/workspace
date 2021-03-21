@@ -14,8 +14,8 @@ int main()
 {
     int a = 1;
     int b = any::foo(&a) + 1;
-    any::vector<int> vec;
-    int a;
+    std::vector<int> vec;
+    int   nnn;
     vec.push_back(1);
     vec.push_back(1);
     vec.push_back(1);
