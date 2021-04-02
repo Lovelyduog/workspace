@@ -15,6 +15,8 @@ int main()
     int a = 1;
     int b = any::foo(&a) + 1;
     std::vector<int> vec;
+    int64_t sss;
+    char a;
     vec.push_back(1);
     vec.push_back(1);
     vec.push_back(1);
