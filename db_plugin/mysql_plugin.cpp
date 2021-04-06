@@ -1,6 +1,6 @@
 #include "mysql_plugin.hpp"
 #include <iostream>
-
+#include<sstream>
 namespace db{
 
     MysqlPlugin* MysqlPlugin::s_instance;
@@ -30,7 +30,16 @@ namespace db{
                 sql::Statement *state = _Connection->createStatement();
                 if (state)
                 {
-                    std::cout << "ready for execute operation" << std::endl;
+                    std::ostringstream osql1;
+                    osql1 << "use test_db;";
+                    state->execute(osql1.str());
+                    std::ostringstream osql;
+                    osql << "create table if not exists userinfo(";
+                    osql << "name varchar(40) not null";
+                    // osql << "id int not null";
+                    osql << ")ENGINE = InnoDB;";
+                    std::cout << osql.str() << std::endl;
+                    state->execute(osql.str());
                 }
                 
             }
