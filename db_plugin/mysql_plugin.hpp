@@ -31,6 +31,10 @@ namespace db{
     private:
         MysqlPlugin();
         ~MysqlPlugin();
+        void closeMasterDb();
+        bool IsErrorCodeNeedReconnect(int iErrorCode);
+        bool FuncHandleSqlException(int dbPos, const std::string &command, sql::SQLException &e);
+        void reconnectDb(int iDBPos);
     private:
         boost::asio::io_service _work_io_service;
         boost::scoped_ptr<boost::asio::io_service::work> _work;
